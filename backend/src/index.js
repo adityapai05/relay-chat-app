@@ -9,7 +9,7 @@ import { app, server } from "./lib/socket.js";
 import path from "path";
 dotenv.config();
 const port = process.env.PORT || 5001;
-
+const __dirname = path.resolve();
 app.use(cookieParser());
 app.use(
   cors({
