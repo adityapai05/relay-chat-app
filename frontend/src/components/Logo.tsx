@@ -5,7 +5,7 @@ const Logo = () => {
   
   const darkThemes = [
     "dark", "synthwave", "halloween", "black", "luxury", 
-    "forest", "dracula", "business", "night", "coffee"
+    "forest", "dracula", "business", "night", "coffee", "dim","sunset"
   ];
 
   const isDarkTheme = darkThemes.includes(theme);
