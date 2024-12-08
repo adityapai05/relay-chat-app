@@ -1,0 +1,13 @@
+{
+  "name": "relay-chat-app",
+  "version": "1.0.0",
+  "description": "Relay Chat is a full-stack real-time chat application designed for seamless communication. It features a responsive UI, multiple themes, user authentication, and real-time message updates.",
+  "main": "index.js",
+  "scripts": {
+    "build":"npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start":"npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "Aditya Pai",
+  "license": "ISC"
+}
